@@ -1,6 +1,6 @@
-baseURL: https://example.com
+baseURL: https://goldschmiede-metallglanz.de
 languageCode: de-de
-title: Yourfolio Theme
+title: Goldschmiede Metallglanz
 theme: yourfolio
 disableKinds: [RSS, taxonomy, taxonomyTerm]
 
