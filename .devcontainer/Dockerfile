@@ -6,7 +6,7 @@ ENV HUGO_VERSION 0.69.1
 
 RUN mkdir -p /usr/local/src \
     && cd /usr/local/src \
-    && curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-64bit.tar.gz | tar -xz \
+    && curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-64bit.tar.gz | tar -xz \
     && mv hugo /usr/local/bin/hugo
 
 EXPOSE 1313
