@@ -15,7 +15,7 @@ header:
       cmd: Fit
 header_text:
   - name: Metallglanz Goldschmiede
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    description: Unikate handgefertigt
 projects:
   - title: Trauringe
     type: 
