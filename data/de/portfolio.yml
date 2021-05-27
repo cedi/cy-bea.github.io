@@ -1,7 +1,7 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Portfolio
+  title : Galerie
   portfolio_item :
     # portfolio item loop
     - name : Rosé Gold Ring

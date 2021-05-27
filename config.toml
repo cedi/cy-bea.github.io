@@ -53,7 +53,7 @@ url = "#feature"
 weight = 1
 
 [[Languages.de.menu.main]]
-name = "Portfolio"
+name = "Galerie"
 url = "#portfolio"
 weight = 2
 

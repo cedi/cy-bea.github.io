@@ -1,8 +1,8 @@
 ############################## Contact #############################
 contact:
   enable : true
-  title : Contact
-  subtitle : Contact Details
+  title : Kontakt
+  subtitle : Kontakt Details
   content : Für individuelle Anfragen und Angebote können Sie sich gerne via E-Mail bei mir melden.
 
   # Contact details
