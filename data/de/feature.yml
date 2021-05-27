@@ -1,0 +1,7 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
+  title : Über mich
+  content : "Ich bin ausgebildete Goldschmiedin ...."

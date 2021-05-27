@@ -1,0 +1,36 @@
+#################################### portfolio ###############################
+portfolio:
+  enable : true
+  title : Portfolio
+  portfolio_item :
+    # portfolio item loop
+    - name : Rosé Gold Ring
+      image : images/portfolio/portfolio-1.jpg
+      image_webp : images/portfolio/portfolio-1.webp
+      categories : ["Ringe"]
+      content : 900er Gold
+      link : "#"
+      
+    # portfolio item loop
+    - name : Anhänger
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["Anhänger"]
+      content : 750er Gold
+      link : ""
+      
+    # portfolio item loop
+    - name : Ohrschmuck
+      image : images/portfolio/portfolio-3.jpg
+      image_webp : images/portfolio/portfolio-3.webp
+      categories : ["Ohr Schmuck"]
+      content : 585 Weißgold
+      link : "#"
+      
+    # portfolio item loop
+    - name : Medallion aus Silber
+      image : images/portfolio/portfolio-4.jpg
+      image_webp : images/portfolio/portfolio-4.webp
+      categories : ["Anhänger", "Sonderanfertigungen"]
+      content : Individuelle Anfertigung eines Silber-Amulett aus 925 Silber
+      link : "#"
