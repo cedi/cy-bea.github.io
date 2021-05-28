@@ -34,3 +34,10 @@ portfolio:
       categories : ["Anhänger", "Sonderanfertigungen"]
       content : Individuelle Anfertigung eines Silber-Amulett aus 925 Silber
       link : "#"
+
+    # portfolio item loop
+    - name : Ohrstecker goldplattiert
+      image: images/portfolio/ohrstecker-plattiert.jpg
+      categories : ["Ohr Schmuck"]
+      content : Ohrstecker in satter Goldfarbe
+      link : "blog/ohrstecker-goldplattiert"

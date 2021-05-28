@@ -64,12 +64,12 @@ weight = 3
 
 [[Languages.de.menu.main]]
 name = "Datenschutzerklärung"
-url = "/blog/datenschutz"
+url = "/datenschutz"
 weight = 4
 
 [[Languages.de.menu.main]]
 name = "Impressum"
-url = "/blog/impressum"
+url = "/impressum"
 weight = 5
 
 ############################# Default Parameters ##########################
