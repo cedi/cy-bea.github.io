@@ -2,13 +2,13 @@
 contact:
   enable : true
   title : Kontakt
-  subtitle : Kontakt Details
-  content : Für individuelle Anfragen und Angebote können Sie sich gerne via E-Mail bei mir melden.
+  subtitle :
+  content : Kontaktieren Sie mich für individuelle Beratung und Angebote
 
   # Contact details
-  contact_list:      
-    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: hello@goldschmiede-metallglanz.de"
+  #contact_list:
+  #  - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+  #    info : "Email: hello@goldschmiede-metallglanz.de"
 
 
   # Contact form

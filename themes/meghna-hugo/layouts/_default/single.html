@@ -7,11 +7,28 @@
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
         <h1>{{ .Title }}</h1>
+        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .Params.title_image | absURL }}"
+							data-lightbox="image-1">
+              <img class="img-fluid mb-50 lozad" data-src="{{ .Params.title_image | absURL }}" alt="blog-image">
+          </a>
       </div>
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
           {{ .Content }}
         </div>
+        <br/>
+        {{"<!-- image item -->" | safeHTML}}
+			  {{ range .Params.blog_images }}
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center">
+            <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ . | absURL }}"
+							data-lightbox="image-1">
+            <img class="img-fluid mb-50 lozad" data-src="{{ . | absURL }}" alt="blog-image">
+          </a>
+          </div>
+        </div>
+        {{ end }}
+        {{"<!-- /image -->" | safeHTML}}
         {{ if site.Params.post_share }}
         {{ partial "post-share.html" . }}
         {{ end }}

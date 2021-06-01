@@ -63,14 +63,19 @@ url = "#contact"
 weight = 3
 
 [[Languages.de.menu.main]]
+name = "Neues"
+url = "/blog"
+weight = 4
+
+[[Languages.de.menu.main]]
 name = "Datenschutzerklärung"
 url = "/datenschutz"
-weight = 4
+weight = 5
 
 [[Languages.de.menu.main]]
 name = "Impressum"
 url = "/impressum"
-weight = 5
+weight = 6
 
 ############################# Default Parameters ##########################
 [params]
@@ -101,6 +106,10 @@ link = "https://instagram.com/goldschmiede-metallglanz"
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
 link = "https://twitter.com/multiple_green"
+
+[[params.social]]
+icon = "ti-email" # themify icon pack : https://themify.me/themify-icons
+link = "mailto:hello@goldschmiede-metallglanz.de"
 
 
 ################################ German Language ########################
