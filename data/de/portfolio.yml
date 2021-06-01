@@ -8,4 +8,4 @@ portfolio:
       image: images/portfolio/ohrstecker-plattiert.jpg
       categories : ["Ohr Schmuck"]
       content : Ohrstecker in satter Goldfarbe
-      link : "blog/ohrstecker-goldplattiert"
+      link : "/blog/ohrstecker-goldplattiert"

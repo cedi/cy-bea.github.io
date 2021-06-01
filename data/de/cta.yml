@@ -3,7 +3,7 @@ cta:
   enable : true
   bg_image : "images/backgrounds/bg-white-wall.jpg"
   title : "Handwerkskunst"
-  content : "Kontaktieren Sie mich noch Heute für dein individuelles Schmuckstück"
+  content : "Kontaktieren Sie mich noch Heute für Ihr individuelles Schmuckstück"
   button:
     enable : true
     label : "Nehme Kontakt auf"
