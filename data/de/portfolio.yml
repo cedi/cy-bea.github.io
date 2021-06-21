@@ -4,8 +4,50 @@ portfolio:
   title : Galerie
   portfolio_item :
     # portfolio item loop
-    - name : Ohrstecker goldplattiert
-      image: images/portfolio/ohrstecker-plattiert.jpg
-      categories : ["Ohr Schmuck"]
-      content : Ohrstecker in satter Goldfarbe
-      link : "/blog/ohrstecker-goldplattiert"
+    - name: Ohrstecker goldplattiert
+      image: images/galerie/ohrstecker-plattiert.jpg # TODO: Bild austauschen
+      categories: ["Ohrschmuck"]
+      content: Ohrstecker in satter Goldfarbe
+      link: /blog/ohrstecker-goldplattiert
+
+    - name: Aquamarin Anhänger graviert
+      image: images/galerie/aquamarin.jpg
+      categories: ["Halsschmuck"]
+      content: Gravierter Aquamarincabochon in Weißgold gefasst
+      link: /blog/aquamarin-anhaenger
+
+    - name: Tansanittropfen mit Brillant
+      image: images/galerie/IMG_0025.JPG
+      categories: ["Ohrschmuck"]
+      content: Intensiv blauer facettierter Tansanit mit darüber plaziertem Brillant
+      link: /blog/tansanittropfen
+
+    - name: Alexandrit-Simili Anhänger
+      image: images/galerie/IMG_0006-Edit.jpg
+      categories: ["Halsschmuck"]
+      content: Farbwechselnder Stein in Tropfenform
+      link: # TODO
+
+    - name: Aquamarin Ohrstecker mit Brilliant
+      image: images/galerie/IMG_0011.JPG
+      categories: ["Ohrschmuck"]
+      content: Detailierte, faccetierte Aquamarine in Silber gefasst
+      link: # TODO
+
+    - name: Tsavorittropfen mit Brillant
+      image: images/galerie/IMG_0016.JPG
+      categories: ["Halsschmuck"]
+      content: Strahlende grüne Granatvarietät mit funkelndem Diamanten in Gelbgold
+      link: # TODO
+
+    - name: Rotgold Trauringe mit Hammerschlag
+      image: images/galerie/IMG_0028.JPG
+      categories: ["Trauringe"]
+      content: Edle Trauringe in Rotgold mit Oberflächenbearbeitung
+      link: # TODO
+
+    - name: Tsavorit Ohrstecker
+      image: images/galerie/IMG_0021.JPG
+      categories: ["Ohrschmuck"]
+      content: facettierte Tsavorit Ohrstecker in leuchtendem Grün
+      link: # TODO
