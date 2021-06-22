@@ -1,6 +1,6 @@
 ############################# call to action ##############################
 cta:
-  enable : true
+  enable : false
   bg_image : "images/backgrounds/bg-white-wall.jpg"
   title : "Handwerkskunst"
   content : "Kontaktieren Sie mich noch Heute für Ihr individuelles Schmuckstück"
