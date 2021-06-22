@@ -12,10 +12,10 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
-		"terminal.integrated.shell.linux": "/bin/bash",
+		"terminal.integrated.profile.linux": "/bin/bash",
 		"git.autofetch": true,
 		"editor.renderFinalNewline": true,
-		"editor.codeLens": true
+		"editor.codeLens": false
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
@@ -23,7 +23,6 @@
 		"ms-azuretools.vscode-docker",
 		"davidanson.vscode-markdownlint",
         "shardulm94.trailing-spaces",
-		"Tabnine.tabnine-vscode",
 		"github.vscode-pull-request-github",
 		"eamodio.gitlens",
 		"rusnasonov.vscode-hugo",

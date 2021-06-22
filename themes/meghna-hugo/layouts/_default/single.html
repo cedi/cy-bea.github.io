@@ -7,10 +7,16 @@
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
         <h1>{{ .Title }}</h1>
-        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .Params.title_image | absURL }}"
-							data-lightbox="image-1">
-              <img class="img-fluid mb-50 lozad" data-src="{{ .Params.title_image | absURL }}" alt="blog-image">
+        <div class="blogimage-block p15 row">
+          <img class="img-fluid mb-50 lozad" data-src="{{ .Params.title_image  | absURL }}" alt="blog-image">
+          <div class="caption">
+            <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .Params.title_image  | relURL }}"
+              data-lightbox="image-1">
+              <i class="ti-zoom-in"></i>
+            </a>
+          </div>
           </a>
+        </div>
       </div>
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
@@ -19,13 +25,15 @@
         <br/>
         {{"<!-- image item -->" | safeHTML}}
 			  {{ range .Params.blog_images }}
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2 text-center">
-            <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ . | absURL }}"
-							data-lightbox="image-1">
-            <img class="img-fluid mb-50 lozad" data-src="{{ . | absURL }}" alt="blog-image">
-          </a>
+        <div class="blogimage-block p15 row">
+          <img class="img-fluid mb-50 lozad" data-src="{{ . | absURL }}" alt="blog-image">
+          <div class="caption">
+            <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ . | relURL }}"
+              data-lightbox="image-1">
+              <i class="ti-zoom-in"></i>
+            </a>
           </div>
+          </a>
         </div>
         {{ end }}
         {{"<!-- /image -->" | safeHTML}}
