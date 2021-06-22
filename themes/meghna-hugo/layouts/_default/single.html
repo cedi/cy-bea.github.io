@@ -6,9 +6,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title | safeHTML}}</h1>
         {{ if and (ne .Title .Description) (ne .Description "") }}
-        <h4>{{ .Description }}</h4>
+        <h4>{{ .Description | safeHTML}}</h4>
         {{ end }}
         <br/>
         {{ if ( eq .Params.title_image "") }}
@@ -26,7 +26,7 @@
       </div>
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
-          {{ .Content }}
+          {{ .Content | safeHTML}}
         </div>
         <br/>
         {{"<!-- image item -->" | safeHTML}}
