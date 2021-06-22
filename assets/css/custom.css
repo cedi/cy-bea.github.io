@@ -228,6 +228,17 @@ a:hover {
   line-height: 50px;
 }
 
+.post-block .content {
+  padding: 20px;
+  height: 258px;
+}
+
+.post-block .content .btn-readmore {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 30px
+}
+
 /*=================================================================
   Navigation
 ==================================================================*/
