@@ -49,5 +49,7 @@ portfolio:
     - name: Tsavorit Ohrstecker
       image: images/galerie/IMG_0021.JPG
       categories: ["Ohrschmuck"]
-      content: facettierte Tsavorit Ohrstecker in leuchtendem Grün
+      content: Facettierte Tsavorit Ohrstecker in leuchtendem Grün
       link: "#" # TODO
+
+    
