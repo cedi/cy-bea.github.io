@@ -7,6 +7,8 @@
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
         <h1>{{ .Title }}</h1>
+        <h4>{{ .Description }}</h4>
+        <br/>
         <div class="blogimage-block p15 row">
           <img class="img-fluid mb-50 lozad" data-src="{{ .Params.title_image  | absURL }}" alt="blog-image">
           <div class="caption">
