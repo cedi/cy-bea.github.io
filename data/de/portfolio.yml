@@ -52,4 +52,9 @@ portfolio:
       content: Facettierte Tsavorit Ohrstecker in leuchtendem Grün
       link: "#" # TODO
 
+    - name: Rauchquarz Orhänger
+      image: images/galerie/rauch1.jpg
+      categories: ["Ohrschmuck"]
+      content: Faccetierte Rauchquarze Pampel Orhänger mit Gold Girlande
+      link: "#" # TODO
     
