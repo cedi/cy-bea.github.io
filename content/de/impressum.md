@@ -1,6 +1,7 @@
 ---
 title: "Impressum"
 description : "Impressum"
+title_image: ""
 ---
 
 Angaben gemäß § 5 TMG
