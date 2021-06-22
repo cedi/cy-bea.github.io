@@ -184,8 +184,8 @@ a:hover {
 }
 
 .blogimage-block img {
-  width: 100%;
-  height: auto;
+  width: 100% !important;
+  height: 1%;
 }
 
 .blogimage-block:hover:before {
