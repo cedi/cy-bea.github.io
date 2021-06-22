@@ -9,6 +9,7 @@
         <h1>{{ .Title }}</h1>
         <h4>{{ .Description }}</h4>
         <br/>
+        {{ if ( eq .Params.title_image "") }}
         <div class="blogimage-block p15 row">
           <img class="img-fluid mb-50 lozad" data-src="{{ .Params.title_image  | absURL }}" alt="blog-image">
           <div class="caption">
@@ -19,6 +20,7 @@
           </div>
           </a>
         </div>
+        {{ end }}
       </div>
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
