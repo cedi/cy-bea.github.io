@@ -1,5 +1,5 @@
 +++
-blog_images = ["/images/blog/aquamarin-anhaenger/2.JPG", "/images/blog/aquamarin-anhaenger/1.jpg", "/images/blog/aquamarin-anhaenger/3.jpg"]
+blog_images = ["/images/blog/aquamarin-anhaenger/1.jpg", "/images/blog/aquamarin-anhaenger/2.JPG", "/images/blog/aquamarin-anhaenger/3.jpg"]
 description = "test123"
 title = "Test"
 title_image = "/images/blog/aquamarin-anhaenger/4.jpg"
