@@ -1,0 +1,16 @@
+---
+label: Blogpost
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: title_image
+  label: title_image
+- type: image_gallery
+  name: blog_images
+  label: blog_images
