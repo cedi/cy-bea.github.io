@@ -20,6 +20,3 @@ fields:
     min: 
     max: 
   label: Blog Bilder
-pages:
-- content/de/blog/test.md
-- content/de/blog/test2.md
