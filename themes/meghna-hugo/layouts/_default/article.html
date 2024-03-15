@@ -8,7 +8,13 @@
 
     <div class="content">
       <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-      <p>{{ .Summary }}</p>
+      <p>
+        <a href="{{ .Permalink }}">
+          {{ .Summary }}
+        </a>
+      </p>
+    </div>
+    <div class="readmore">
       <a class="btn btn-transparent btn-readmore" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
     </div>
   </div>

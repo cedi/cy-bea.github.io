@@ -10,13 +10,12 @@
 							{{ with i18n "blogTitle" }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
 					<div class="border-meghna"></div>
 				</div>
+				{{"<!-- /section title -->" | safeHTML}}
 			</div>
-			{{"<!-- /section title -->" | safeHTML}}
 
 			{{ range first 3 (where site.RegularPages "Section" "==" "blog")}}
 			{{ .Render "article"}}
 			{{ end }}
-
 			<div class="all-post text-center col-lg-12">
 				<a class="btn btn-main" href="{{ `blog` | absLangURL }}">{{ i18n "viewAllPost" }}</a>
 			</div>

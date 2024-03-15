@@ -4,18 +4,38 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: data/de
-  label: Webseiten Elemente
-  create: all
-  match: "**/*"
+- type: document
+  path: data/de/index.yml
+  label: Index
+- type: document
+  path: data/de/banner.yml
+  label: Titel-Seite
+- type: document
+  path: data/de/feature.yml
+  label: Über mich
+- type: document
+  path: data/de/service.yml
+  label: Leistungen
+- type: document
+  path: data/de/portfolio.yml
+  label: Galerie
 - type: directory
   path: content/de/blog
   label: Blog
-  create: documents
+  create: all
   match: "**/*"
-  templates:
-  - blogpost
+- type: document
+  path: data/de/funfacts.yml
+  label: Fun Facts
+- type: document
+  path: data/de/testimonial.yml
+  label: Kunden Rezensionen
+- type: document
+  path: data/de/cta.yml
+  label: Trauringkonfigurator
+- type: document
+  path: data/de/contact.yml
+  label: Kontakt
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

@@ -1,0 +1,51 @@
+---
+label: Startseite
+hide_body: true
+fields:
+- type: field_group
+  name: banner
+  label: Titelseite
+  fields:
+  - type: boolean
+    name: enable
+    label: Aktiviert
+    default: true
+  - type: text
+    name: bg_image
+    label: Titel Bild
+    description: Das erste Bild was angezeigt wird auf der Webseite  (/content/name.png)
+  - type: field_group_list
+    name: hero_images
+    label: Titel Bilder Galerie
+    fields:
+    - type: text
+      name: image
+      label: image
+    description: Wenn hier mehrere Titelbilder angegeben sind, wechselt das Titel
+      Bild wie in einer Diashow<br>Immer den Pfad zum bild (/content/name.png) benutzen
+  - type: text
+    name: title
+    label: Überschrift
+    description: Seiten Überschrift
+  - type: text
+    name: content
+    label: Überschrift 2
+    description: die zweite Zeile unter dem Titel
+  - type: field_group
+    name: button
+    label: '"Call to action" Button'
+    fields:
+    - type: boolean
+      name: enable
+      label: Aktiviert
+    - type: text
+      name: label
+      label: Button-Text
+    - type: text
+      name: link
+      label: Button-Link
+    description: Dieser Button kann zusätzlich eingeblendet werden um irgend eine
+      Aktion vom User einzufordern. Bspw. sowas wie "Nimm Kontakt auf" und wenn man
+      ihn klickt, landet man direkt beim E-Mail formular
+pages:
+- data/de/banner.yml

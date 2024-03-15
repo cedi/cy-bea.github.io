@@ -1,0 +1,38 @@
+---
+label: Rezensionen
+hide_body: true
+fields:
+- type: field_group
+  name: testimonial
+  label: Rezensionen
+  fields:
+  - type: boolean
+    name: enable
+    label: Aktiviert
+  - type: field_group_list
+    name: testimonial_item
+    label: Rezensionen
+    fields:
+    - type: text
+      name: name
+      label: Name
+    - name: image
+      type: text
+      config:
+        required: false
+      label: Bild
+    - name: date
+      type: datetime
+      label: Datum
+      description: ''
+      config:
+        required: false
+        date_format: MMM D, YYYY
+        time_format: 
+        display_utc: false
+        export_format: MMM D, YYYY
+    - type: textarea
+      name: content
+      label: Rezension
+pages:
+- data/de/testimonial.yml

@@ -1,0 +1,21 @@
+---
+label: index
+hide_body: true
+fields:
+- type: field_group
+  name: index
+  label: index
+  fields:
+  - type: field_group_list
+    name: partials
+    label: partials
+    fields:
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: partial
+      label: partial
+      hidden: true
+pages:
+- data/de/index.yml

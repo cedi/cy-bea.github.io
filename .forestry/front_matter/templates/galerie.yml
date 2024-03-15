@@ -1,0 +1,43 @@
+---
+label: Galerie
+hide_body: true
+fields:
+- type: field_group
+  name: portfolio
+  label: Galerie
+  fields:
+  - type: boolean
+    name: enable
+    label: Aktiviert
+  - type: text
+    name: title
+    label: Titel
+  - type: field_group_list
+    name: portfolio_item
+    label: Galerie Bild
+    fields:
+    - type: text
+      name: name
+      config:
+        required: true
+      label: Titel
+    - type: text
+      name: image
+      label: Bild
+      description: Pfad zum bild (/content/name.png)
+    - type: tag_list
+      name: categories
+      default: []
+      label: Kategorie(n)
+      description: Kategorien für das Bild. Immer "Enter" drücken nachdem eine Kategorie
+        eingegeben wurde
+    - type: text
+      name: content
+      label: Beschreibung
+    - type: text
+      name: link
+      label: Link
+      description: Wenn man auf den Titel oder den text klickt, soll man dann irgendwohin
+        geleitet werden? Zum Beispiel der Link zu einem Blog-Post
+pages:
+- data/de/portfolio.yml

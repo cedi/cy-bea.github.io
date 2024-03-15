@@ -1,12 +1,13 @@
-############################### Banner ################################
+---
 banner:
-  enable : true
-  #bg_image_webp : "images/backgrounds/hero-area.webp"
-  bg_image : "images/backgrounds/header.jpg"
-  icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Goldschmiede Metallglanz"
-  content : "Handgefertigte Unikate in hochwertiger Qualität, direkt aus Hamburg"
+  enable: true
+  bg_image: images/backgrounds/header.jpg
+  hero_images:
+  - image: images/backgrounds/header.jpg
+  icon: ''
+  title: Goldschmiede Metallglanz
+  content: Handgefertigte Unikate in hochwertiger Qualität, direkt aus Hamburg
   button:
-    enable : false
-    label : "Portfolio"
-    link : "#portfolio"
+    enable: false
+    label: Galerie
+    link: "#portfolio"

@@ -1,0 +1,32 @@
+---
+label: Trauringkonfigurator
+hide_body: true
+fields:
+- type: field_group
+  name: cta
+  label: Trauringkonfigurator
+  fields:
+  - type: boolean
+    name: enable
+    label: Aktiviert
+  - type: text
+    name: title
+    label: Titel
+  - type: text
+    name: content
+    label: Text
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: Aktiviert
+    - type: text
+      name: label
+      label: Button Text
+    - type: text
+      name: link
+      label: Link
+pages:
+- data/de/cta.yml

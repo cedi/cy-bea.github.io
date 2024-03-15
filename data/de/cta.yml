@@ -1,10 +1,10 @@
-############################# call to action ##############################
+---
 cta:
-  enable : false
-  bg_image : "images/backgrounds/bg-white-wall.jpg"
-  title : "Handwerkskunst"
-  content : "Kontaktieren Sie mich noch Heute für Ihr individuelles Schmuckstück"
+  enable: true
+  title: Trauringkonfiguratior
+  content: Klicken Sie hier um zum Trauring Konfigurator zu gelangen. Für persönliche
+    Beratungen und genaue Kostenvoranschläge kontaktieren mich bitte direkt.
   button:
-    enable : true
-    label : "Nehme Kontakt auf"
-    link : "#contact"
+    enable: true
+    label: Jetzt starten
+    link: https://www.amodoro.de/3d/ehering-konfigurator

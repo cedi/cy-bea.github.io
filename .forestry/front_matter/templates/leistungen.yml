@@ -1,0 +1,31 @@
+---
+label: Leistungen
+hide_body: true
+fields:
+- type: field_group
+  name: service
+  label: Leistungen
+  fields:
+  - type: boolean
+    name: enable
+    label: Aktiviert
+  - type: text
+    name: title
+    label: Titel
+  - type: field_group_list
+    name: service_item
+    label: Leistungen
+    fields:
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: icon
+      label: Icon
+      description: Icon Namen von <a href="https://themify.me/themify-icons" title="https://themify.me/themify-icons"
+        target="_blank">https://themify.me/themify-icons</a> kopieren
+    - type: textarea
+      name: content
+      label: Beschreibung
+pages:
+- data/de/service.yml

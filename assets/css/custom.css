@@ -138,6 +138,14 @@ a:hover {
   background: #f9f9f9;
 }
 
+.bg-one {
+  background-color: #f2f2f2;
+}
+
+.bg-dark {
+  background: #f2f2f2;
+}
+
 .overly:before {
   content: '';
   background: rgba(0, 0, 0, 0.096);
@@ -228,15 +236,30 @@ a:hover {
   line-height: 50px;
 }
 
-.post-block .content {
-  padding: 20px;
-  height: 258px;
+.section .flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
 }
 
-.post-block .content .btn-readmore {
+.post-block {
+  flex: 1;
+  height: 100%;
+  flex-grow: 1;
+  padding-bottom: 48px;
+}
+
+.post-block .content {
+  padding: 20px;
+}
+
+.post-block .readmore {
   position: absolute;
   bottom: 0;
-  margin-bottom: 30px
+}
+
+.post-block .readmore .btn-readmore {
+  margin: 20px;
 }
 
 .portfolio-block:hover:before {
@@ -248,15 +271,21 @@ a:hover {
 ==================================================================*/
 .navigation {
   background-color: #dfc3b0;
+  height: 64px;
+}
+
+.navigation .container {
+  background-color: #dfc3b0;
+  max-width: 100% !important;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .show>.nav-link, .nav-link {
+.navbar-dark .navbar-nav .show>.nav-link,
+.nav-link {
   color: #7e6456 !important;
 }
-
 
 /*=================================================================
   About us section
@@ -286,9 +315,17 @@ a:hover {
 /*=================================================================
  Call To Action 2
 ==================================================================*/
+.call-to-action h2 {
+  font-weight: 700;
+  color: #a78a7a;
+}
+
+/*=================================================================
+ Call To Action 2
+==================================================================*/
 .section-sm {
-    padding: 100px 0;
-  }
+  padding: 40px 0;
+}
 
 .call-to-action-2 {
   color: #a78a7a;
@@ -308,7 +345,7 @@ a:hover {
 ==================================================================*/
 
 .portfolio-block .caption .search-icon {
-    background: #a78a7a;
+  background: #a78a7a;
 }
 
 .portfolio-filter .btn.active {
@@ -328,8 +365,8 @@ a:hover {
   Footer section
 ==================================================================*/
 .copyright {
-    color: #7e6456;
-  }
+  color: #7e6456;
+}
 
 .social-icon ul li a {
   background-color: #ecc7af5e;
@@ -347,4 +384,99 @@ a:hover {
 .cookie-box {
   background: #dfc3b0;
   color: #7e6456;
+}
+
+/*=================================================================
+  Services section
+==================================================================*/
+.service-block {
+  padding: 60px 20px;
+  border-left: 1px solid rgba(236, 239, 241, 0.07);
+  border-top: 1px solid rgba(236, 239, 241, 0.07);
+  margin-bottom: 40px;
+  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+}
+
+.service-block .service-icon {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+/*=================================================================
+  Item counter section
+==================================================================*/
+.counters-item {
+  padding: 25px 0;
+  margin-bottom: 10px;
+  background: #dfc3b0;
+}
+
+.counters-item span {
+  display: contents;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.counters-item .number {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+/*=================================================================
+  Our skills
+==================================================================*/
+
+.skill-bar .progress .progress-bar {
+  background: #7e6456;
+}
+
+.testimonial .container .item {
+  width: 50%;
+}
+
+/*=================================================================
+  Services section
+==================================================================*/
+.service-block {
+  height: 90%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(242, 242, 242, 0.7);
+}
+
+.overly:before {
+  background: rgba(0, 0, 0, 0);
+}
+
+/*=================================================================
+ Contact
+==================================================================*/
+
+#contact-submit {
+  background: #a78a7a;
+}
+
+#contact-submit:hover {
+  border-color: #7e6456;
+  background-color: #c9a894;
+}
+
+.form-meghna ::placeholder {
+  color: #363535 !important;
+}
+
+.form-meghna .form-control {
+  color: #252525;
+  border-color: #7e6456;
+  border: 1px solid rgba(126, 100, 86, 0.3);
+}
+
+.form-meghna input:hover,
+.form-meghna textarea:hover {
+  border-color: #a78a7a;
 }

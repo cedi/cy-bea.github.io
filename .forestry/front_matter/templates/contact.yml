@@ -1,0 +1,54 @@
+---
+label: Kontakt
+hide_body: true
+fields:
+- type: field_group
+  name: contact
+  label: Kontakt
+  fields:
+  - type: boolean
+    name: enable
+    label: Aktiviert
+  - type: text
+    name: title
+    label: Titel
+  - type: text
+    name: subtitle
+    label: Untertitel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  - type: field_group
+    name: contact_form
+    label: Kontakt Formular
+    fields:
+    - type: boolean
+      name: enable
+      label: Aktiviert
+    - type: text
+      name: form_action
+      label: formspree URL
+      description: Der Link der in Formspree angezeigt wird (https://formspree.io/f/s32d2d)
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: email
+      label: E-Mail
+    - type: text
+      name: subject
+      label: Betreff
+    - type: text
+      name: message
+      label: Nachricht
+    - type: text
+      name: submit
+      label: Absenden
+pages:
+- data/de/contact.yml

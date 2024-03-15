@@ -1,6 +1,10 @@
-############################# feature ###################################
+---
 feature:
-  enable : true
-  image : images/about/profile.jpg
-  title : Über mich
-  content : "Ich bin ausgebildete Goldschmiedin und Handwerkerin aus Leidenschaft."
+  enable: true
+  image: images/about/profile.jpg
+  title: Über mich
+  content: Ich bin ausgebildete Goldschmiedin und Handwerkerin aus Leidenschaft. Mit
+    Metall und Edelsteinen kreiere ich einzigartige Schmuckstücke mit Charakter. Speziell
+    faszinieren mich Edelsteine der besonderen Art mit Lichtreflexen, Farbwechseln,
+    intensivem Feuer oder fantasievollen Schliffen. Meine Arbeiten sind hochwertig,
+    regional hergestellt, fair und langlebig.

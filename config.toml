@@ -47,39 +47,82 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 
 ################### German Navigation ########################
+
 [[Languages.de.menu.main]]
-name = "Über mich"
-url = "#feature"
-weight = 1
+name = "Shop"
+url = "https://shop.metallglanz.com"
+weight = 10
 
 [[Languages.de.menu.main]]
 name = "Galerie"
 url = "#portfolio"
-weight = 2
+weight = 20
+
+[[Languages.de.menu.main]]
+name = "Neues"
+url = "#blog"
+weight = 40
+
+[[Languages.de.menu.main]]
+name = "Trauringkonfigurator"
+url = "#cta"
+weight = 50
 
 [[Languages.de.menu.main]]
 name = "Kontakt"
 url = "#contact"
-weight = 3
+weight = 60
 
-[[Languages.de.menu.main]]
-name = "Neues"
-url = "/blog"
-weight = 4
-
-[[Languages.de.menu.main]]
+[[Languages.de.menu.policy]]
 name = "Datenschutzerklärung"
 url = "/datenschutz"
-weight = 5
+weight = 10
 
-[[Languages.de.menu.main]]
+[[Languages.de.menu.policy]]
 name = "Impressum"
 url = "/impressum"
-weight = 6
+weight = 20
+
+################### English Navigation ########################
+
+# [[Languages.en.menu.main]]
+# name = "About me"
+# url = "#feature"
+# weight = 1
+# 
+# [[Languages.en.menu.main]]
+# name = "News"
+# url = "#blog"
+# weight = 3
+# 
+# [[Languages.en.menu.main]]
+# name = "Gallery"
+# url = "#portfolio"
+# weight = 2
+# 
+# [[Languages.en.menu.main]]
+# name = "Wedding ring configurator"
+# url = "#cta"
+# weight = 4
+# 
+# [[Languages.en.menu.main]]
+# name = "Contact"
+# url = "#contact"
+# weight = 5
+
+# [[Languages.en.menu.policy]]
+# name = "Privacy Policy"
+# url = "/datenschutz"
+# weight = 60
+# 
+# [[Languages.en.menu.policy]]
+# name = "Impressum"
+# url = "/impressum"
+# weight = 70
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.jpg"
+logo = "images/thumbnail_metallglanz.png"
 # Meta data
 description = "Goldschmiede Metallglanz"
 author = "Goldschmiede Metallglanz"
@@ -91,7 +134,7 @@ post_share = false
 # preloader
 [params.preloader]
 enable = false
-preloader = "images/logo.jpg"
+preloader = "images/thumbnail_metallglanz.png"
 
 # cookies
 [params.cookies]
@@ -101,7 +144,7 @@ expire_days = 2
 ############################# social icons ##########################
 [[params.social]]
 icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
-link = "https://instagram.com/goldschmiede-metallglanz"
+link = "https://www.instagram.com/goldschmiede_metallglanz/"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
@@ -109,7 +152,7 @@ link = "https://twitter.com/multiple_green"
 
 [[params.social]]
 icon = "ti-email" # themify icon pack : https://themify.me/themify-icons
-link = "mailto:hello@goldschmiede-metallglanz.de"
+link = "mailto:hello@metallglanz.com"
 
 
 ################################ German Language ########################
@@ -119,4 +162,13 @@ languageCode = "de-de"
 contentDir = "content/de"
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2021 Goldschmiede Metallglanz"
+copyright = "Copyright &copy; 2022 Goldschmiede Metallglanz"
+
+################################ English Language ########################
+# [Languages.en]
+# languageName = "En"
+# languageCode = "en-us"
+# contentDir = "content/en"
+# weight = 1
+# home = "Home"
+# copyright = "Copyright &copy; 2022 Goldschmiede Metallglanz"

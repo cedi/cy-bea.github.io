@@ -1,0 +1,37 @@
+---
+label: Fun Facts
+hide_body: true
+fields:
+- type: field_group
+  name: funfacts
+  label: funfacts
+  fields:
+  - type: boolean
+    name: enable
+    label: Aktiviert
+  - type: field_group_list
+    name: counter_item
+    label: Fun Fact
+    fields:
+    - type: text
+      name: title
+      label: Titel
+      config:
+        required: true
+    - name: icon
+      type: text
+      config:
+        required: false
+      label: Icon
+    - type: number
+      name: count
+      label: Count
+      config:
+        required: true
+    - type: text
+      name: unit
+      label: Einheit
+      description: Sowas wie % oder “Liter” oder eine Einheit die hinter der Zahl
+        steht
+pages:
+- data/de/funfacts.yml

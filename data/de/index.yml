@@ -1,0 +1,25 @@
+---
+index:
+  partials:
+  - name: Startseite
+    partial: banner.html
+  - name: Navigation
+    partial: navigation.html
+  - name: Shop
+    partial: shop.html
+  - name: Über mich
+    partial: feature.html
+  - name: Service
+    partial: service.html
+  - name: Galerie
+    partial: portfolio.html
+  - name: Blog
+    partial: blog.html
+  - name: Funfacts
+    partial: funfacts.html
+  - name: Testimonial
+    partial: testimonial.html
+  - name: Trauringkonfigurator
+    partial: cta.html
+  - name: Kontakt
+    partial: contact.html

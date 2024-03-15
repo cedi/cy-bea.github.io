@@ -1,0 +1,10 @@
+---
+shop:
+  enable: true
+  title: Online Shop
+  content: Klicken Sie hier um zu meinem Online Shop zu gelangen. Für persönliche
+    Beratungen und genaue Kostenvoranschläge kontaktieren mich bitte direkt.
+  button:
+    enable: true
+    label: Online Shop
+    link: https://shop.metallglanz.com
