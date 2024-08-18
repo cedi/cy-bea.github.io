@@ -9,8 +9,8 @@ Impressum
 Angaben gemäß § 5 TMG
 ---------------------
 
-Tabea Windelberg  
-Goldschmiede Metallglanz  
+Tabea Specht  
+Goldspecht  
 Elbgaustr. 73b  
 22523 Hamburg
 
@@ -18,12 +18,12 @@ Kontakt
 -------
 
 Telefon: +49 178 3282798    
-E-Mail: impressum@metallglanz.com
+E-Mail: impressum@gold-specht.de
 
 Redaktionell verantwortlich
 ---------------------------
 
-Tabea Windelberg  
+Tabea Specht  
 Elbgaustr. 73b  
 22523 Hamburg
 
