@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "/"
-title = "Goldschmiede Metallglanz"
+title = "Goldschmiede Goldspecht"
 theme = "meghna-hugo"
 themesDir = "./themes"
 
@@ -124,8 +124,8 @@ weight = 20
 [params]
 logo = "images/thumbnail_metallglanz.png"
 # Meta data
-description = "Goldschmiede Metallglanz"
-author = "Goldschmiede Metallglanz"
+description = "Goldschmiede Goldspecht"
+author = "Tabea Specht"
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
@@ -144,15 +144,10 @@ expire_days = 2
 ############################# social icons ##########################
 [[params.social]]
 icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
-link = "https://www.instagram.com/goldschmiede_metallglanz/"
-
-[[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "https://twitter.com/multiple_green"
-
+link = "https://www.instagram.com/gold_specht/"
 [[params.social]]
 icon = "ti-email" # themify icon pack : https://themify.me/themify-icons
-link = "mailto:hello@metallglanz.com"
+link = "mailto:kontakt@gold-specht.de"
 
 
 ################################ German Language ########################
@@ -162,7 +157,7 @@ languageCode = "de-de"
 contentDir = "content/de"
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2024 Goldschmiede Metallglanz"
+copyright = "Copyright &copy; 2024 Goldschmiede Goldspecht"
 
 ################################ English Language ########################
 # [Languages.en]
