@@ -127,7 +127,7 @@ weight = 20
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/thumbnail_metallglanz.png"
+logo = "images/thumbnail_metallglanz.png.webp"
 # Meta data
 description = "Goldschmiede Goldspecht"
 author = "Tabea Specht"
@@ -139,7 +139,7 @@ post_share = false
 # preloader
 [params.preloader]
 enable = false
-preloader = "images/thumbnail_metallglanz.png"
+preloader = "images/thumbnail_metallglanz.png.webp"
 
 # cookies
 [params.cookies]
