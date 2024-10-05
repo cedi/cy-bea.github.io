@@ -4,7 +4,7 @@ portfolio:
   title: Galerie
   portfolio_item:
     - name: Rankenring
-      image: "/images/Rankenring1.jpg"
+      image: "/images/Rankenring1.jpg.webp"
       categories:
         - Ring
       content: 585/- Gelbgold
@@ -221,7 +221,7 @@ portfolio:
       content: Prinzesscut mit Funkelgarantie 925/- Silber
       link: "#"
     - name: Ohrstecker goldplattiert
-      image: images/galerie/ohrstecker-plattiert.jpg
+      image: images/galerie/ohrstecker-plattiert.jpg.webp
       categories:
         - Ohrschmuck
       content: Ohrstecker in satter Goldfarbe
@@ -239,43 +239,43 @@ portfolio:
       content: 925/- Silber
       link: ""
     - name: Aquamarin Anhänger graviert
-      image: images/galerie/aquamarin.jpg
+      image: images/galerie/aquamarin.jpg.webp
       categories:
         - Halsschmuck
       content: Gravierter Aquamarincabochon in Weißgold gefasst
       link: "/blog/aquamarin-anhaenger"
     - name: Tansanittropfen mit Brillant
-      image: images/galerie/IMG_0025.JPG
+      image: images/galerie/IMG_0025.JPG.webp
       categories:
         - Ohrschmuck
       content: Intensiv blauer facettierter Tansanit mit darüber plaziertem Brillant
       link: "/blog/tansanittropfen"
     - name: Alexandrit-Simili Anhänger
-      image: images/galerie/IMG_0006-Edit.jpg
+      image: images/galerie/IMG_0006-Edit.jpg.webp
       categories:
         - Halsschmuck
       content: Farbwechselnder Stein in Tropfenform
       link: "#"
     - name: Aquamarin Ohrstecker mit Brilliant
-      image: images/galerie/IMG_0011.JPG
+      image: images/galerie/IMG_0011.JPG.webp
       categories:
         - Ohrschmuck
       content: Detailierte, faccetierte Aquamarine in Silber gefasst
       link: "#"
     - name: Rotgold Trauringe mit Hammerschlag
-      image: images/galerie/IMG_0028.JPG
+      image: images/galerie/IMG_0028.JPG.webp
       categories:
         - Trauringe
       content: Edle Trauringe in Rotgold mit Oberflächenbearbeitung
       link: "#"
     - name: Tsavorit Ohrstecker
-      image: images/galerie/IMG_0021.JPG
+      image: images/galerie/IMG_0021.JPG.webp
       categories:
         - Ohrschmuck
       content: Facettierte Tsavorit Ohrstecker in leuchtendem Grün
       link: "#"
     - name: Rauchquarz Orhänger
-      image: images/galerie/rauch1.jpg
+      image: images/galerie/rauch1.jpg.webp
       categories:
         - Ohrschmuck
       content: Faccetierte Rauchquarze Pampel Orhänger mit Gold Girlande
