@@ -3,18 +3,18 @@ funfacts:
   enable: true
   counter_item:
     - title: Trauringpaare gefertigt
-      icon: icons/rings.png
+      icon: icons/rings.png.webp
       count: 26
       unit: ""
     - title: Recycletes Gold
-      icon: icons/recycle.png
+      icon: icons/recycle.png.webp
       count: 99
       unit: "%"
     - title: Fair produziert
-      icon: icons/fair.png
+      icon: icons/fair.png.webp
       count: 100
       unit: "%"
     - title: Hand gemacht
-      icon: icons/saw.png
+      icon: icons/saw.png.webp
       count: 100
       unit: "%"

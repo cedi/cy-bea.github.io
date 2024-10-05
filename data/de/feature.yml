@@ -1,7 +1,7 @@
 ---
 feature:
   enable: true
-  image: images/about/profile.jpg
+  image: images/about/profile.jpg.webp
   title: Goldschmiede Goldspecht
   subtitle: Handgefertigte Unikate in hochwertiger Qualität, direkt aus Hamburg
   content: |

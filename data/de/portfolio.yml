@@ -16,7 +16,7 @@ portfolio:
       content: 925/- Silber
       link: ""
     - name: Mondstein Kette mit Ohrhängern und Iolith
-      image: "/images/f6e71c2b-224c-41bd-b29f-20a618a92a37.jpeg"
+      image: "/images/f6e71c2b-224c-41bd-b29f-20a618a92a37.jpeg.webp"
       categories:
         - Ohrschmuck
         - Halsschmuck
@@ -29,19 +29,19 @@ portfolio:
       content: 925/- Silber 585/- Gelbgold
       link: ""
     - name: Aquamarin Hexagon Ring
-      image: "/images/4286ede4-0f83-49ee-843b-caef93338933.jpeg"
+      image: "/images/4286ede4-0f83-49ee-843b-caef93338933.jpeg.webp"
       categories:
         - Ring
       content: 925/- Silber
       link: ""
     - name: Tsavorit mit Brillant
-      image: "/images/c04d4aed-60f8-47ee-89b2-745d981b3ad0.jpeg"
+      image: "/images/c04d4aed-60f8-47ee-89b2-745d981b3ad0.jpeg.webp"
       categories:
         - Halsschmuck
       content: "750/- Gelbgold "
       link: ""
     - name: Zwei Einzelringe Brillant und Mondstein
-      image: "/images/a613c080-58c8-44a0-91fd-efb800cd5426.jpeg"
+      image: "/images/a613c080-58c8-44a0-91fd-efb800cd5426.jpeg.webp"
       categories:
         - Ring
       content: "925/- Silber und 585/- Gelbgold "
@@ -50,34 +50,34 @@ portfolio:
       categories:
         - Ring
       content: 925/- Silber
-      image: "/images/3fd6da84-4ac9-4936-b7f8-9634c19a7e32.jpeg"
+      image: "/images/3fd6da84-4ac9-4936-b7f8-9634c19a7e32.jpeg.webp"
       link: ""
     - name: Trauringe Kugelhammerschlag mit Brillant
-      image: "/images/cbe47b29-2ea7-433b-8581-b5cfbb916590.jpeg"
+      image: "/images/cbe47b29-2ea7-433b-8581-b5cfbb916590.jpeg.webp"
       categories:
         - Trauringe
       content: 585/- Weißgold
       link: ""
     - name: London blue Topas mit Brillant
-      image: "/images/7a04669e-3f0d-4ee3-8a73-76a612ce25ef.jpeg"
+      image: "/images/7a04669e-3f0d-4ee3-8a73-76a612ce25ef.jpeg.webp"
       categories:
         - Halsschmuck
       content: 750/- Gelbgold
       link: ""
     - name: Jugendstil Haarkamm mit Saphir und Swiss blue Topas
-      image: "/images/40acaf6b-d907-4f88-81e4-f6a4a7ff2322.jpeg"
+      image: "/images/40acaf6b-d907-4f88-81e4-f6a4a7ff2322.jpeg.webp"
       categories:
         - Haarschmuck
       content: 925/- Silber
       link: ""
     - name: Hexagon Rauchquarz
-      image: "/images/2dedd2cf-521b-4252-bb2f-64ecc25f3adc.jpeg"
+      image: "/images/2dedd2cf-521b-4252-bb2f-64ecc25f3adc.jpeg.webp"
       categories:
         - Halsschmuck
       content: 925/- Silber an einer Pandakette
       link: ""
     - name: London blue Topas mit Brillant Fuchsschwanzkette
-      image: "/images/45773a37-51da-4521-b2e5-0bb87ea05cf0.jpeg"
+      image: "/images/45773a37-51da-4521-b2e5-0bb87ea05cf0.jpeg.webp"
       categories:
         - Halsschmuck
       content: 925/- Silber und 585/- Weißgold Krappenfassung
@@ -89,61 +89,61 @@ portfolio:
       content: 925/- Silber
       link: ""
     - name: Hammerschlag Trauringe
-      image: "/images/11f00ef1-7e92-4a3e-b145-6b212d2a260b.jpeg"
+      image: "/images/11f00ef1-7e92-4a3e-b145-6b212d2a260b.jpeg.webp"
       categories:
         - Trauringe
       content: 750/- Gelbgold
       link: ""
     - name: Schwesternanhänger grüner Saphir und Smaragd
-      image: "/images/d027b6c8-6ec7-4091-8cf1-b5c34a4577ea.jpeg"
+      image: "/images/d027b6c8-6ec7-4091-8cf1-b5c34a4577ea.jpeg.webp"
       categories:
         - Halsschmuck
       content: "750/- Gelbgold "
       link: ""
     - name: London blue Topas mit Brillanten
-      image: "/images/7b43f88a-dcf6-491a-bd2f-b289205d4acb.jpeg"
+      image: "/images/7b43f88a-dcf6-491a-bd2f-b289205d4acb.jpeg.webp"
       categories:
         - "Ohrschmuck "
       content: 750/- Gelbgold
       link: ""
     - name: Medallion an Ankerkette
-      image: "/images/94cf633a-7e45-4a2b-8136-1bcde0dd7490.jpeg"
+      image: "/images/94cf633a-7e45-4a2b-8136-1bcde0dd7490.jpeg.webp"
       categories:
         - Halsschmuck
       content: 750/- Gelbgold
       link: ""
     - name: Medallion aufklappbar Kordelkette
-      image: "/images/baa7ff53-a342-4cc7-a92c-ec85ffd193f2.jpeg"
+      image: "/images/baa7ff53-a342-4cc7-a92c-ec85ffd193f2.jpeg.webp"
       categories:
         - Halsschmuck
       content: 925/- Silber
       link: ""
     - name: Ringe mit Hammerschlag
-      image: "/images/9d17cb36-a5d4-4941-a0b5-6e8859615e06.jpeg"
+      image: "/images/9d17cb36-a5d4-4941-a0b5-6e8859615e06.jpeg.webp"
       categories:
         - Trauringe
       content: 585/- Rotgold und Gelbgold
       link: ""
     - name: Partnerringe poliert
-      image: "/images/a08688bb-e0b0-492f-bca7-97fd855f191e.jpeg"
+      image: "/images/a08688bb-e0b0-492f-bca7-97fd855f191e.jpeg.webp"
       categories:
         - Trauringe
       content: 925/- Feingehalt
       link: ""
     - name: Labradorit Ohrhänger mit Monden und Brillanten
-      image: "/images/6a4cc741-673a-4a24-afca-1d09a4677133.jpeg"
+      image: "/images/6a4cc741-673a-4a24-afca-1d09a4677133.jpeg.webp"
       categories:
         - Ohrschmuck
       content: 925/- Silber
       link: ""
     - name: Kugelhammerschlag Alexandrit und champagner Brillanten
-      image: "/images/2247698d-ce60-4b73-82f4-66305821747a.jpeg"
+      image: "/images/2247698d-ce60-4b73-82f4-66305821747a.jpeg.webp"
       categories:
         - Trauringe
       content: 585/- Weißgold
       link: ""
     - name: Anatomisches Herz Anhänger
-      image: "/images/4286ede4-0f83-49ee-843b-caef93338933.jpeg"
+      image: "/images/4286ede4-0f83-49ee-843b-caef93338933.jpeg.webp"
       categories:
         - Halsschmuck
       content: 925/- Silber
@@ -155,43 +155,43 @@ portfolio:
       content: Kugeldraht mit facettiertem rosa Turmalin
       link: ""
     - name: Wavy Silver
-      image: "/images/ad448ec1-6f02-4519-a2a7-30d4fecd197a.jpeg"
+      image: "/images/ad448ec1-6f02-4519-a2a7-30d4fecd197a.jpeg.webp"
       categories:
         - Ohrschmuck
       content: 925/- Creolen
       link: ""
     - name: Sternum Piercing mit Rubin
-      image: "/images/e84a3c2e-a8d1-47ed-a0f2-820dcab7c48d.jpeg"
+      image: "/images/e84a3c2e-a8d1-47ed-a0f2-820dcab7c48d.jpeg.webp"
       categories:
         - Piercing
       content: 750/- Gelbgold
       link: ""
     - name: Topas Ohrhänger
-      image: "/images/4e5a8e25-0803-459f-a592-5f82bd2e44af.jpeg"
+      image: "/images/4e5a8e25-0803-459f-a592-5f82bd2e44af.jpeg.webp"
       categories:
         - Ohrschmuck
       content: 925/- Silber mit Kugelverzierung
       link: ""
     - name: Sternsaphir an Wellenarmband
-      image: "/images/fba8db5a-3c82-47f7-8d14-d8df6928b573.jpeg"
+      image: "/images/fba8db5a-3c82-47f7-8d14-d8df6928b573.jpeg.webp"
       categories:
         - Armschmuck
       content: 585/- Weißgold
       link: ""
     - name: Jugendstil Aquamarin Anhänger
-      image: "/images/15498e94-3fa1-44d1-8d0d-6f1f3fe0951c.jpeg"
+      image: "/images/15498e94-3fa1-44d1-8d0d-6f1f3fe0951c.jpeg.webp"
       categories:
         - "Halsschmuck "
       content: Elfisch verschwundene Silberschnörkel mit kleiner Süßwasserperle
       link: ""
     - name: "Goldsand Sonnenstein mit Süßwasserperle "
-      image: "/images/eea8a46a-fac5-4e53-867d-a66a4a6a530b.jpeg"
+      image: "/images/eea8a46a-fac5-4e53-867d-a66a4a6a530b.jpeg.webp"
       categories:
         - Ohrschmuck
       content: 750/- Gelbgold
       link: ""
     - name: Topas Ohrhänger
-      image: "/images/93409496-3b45-4ac3-aeec-37adce6209c5.jpeg"
+      image: "/images/93409496-3b45-4ac3-aeec-37adce6209c5.jpeg.webp"
       categories:
         - Ohrschmuck
       content: Swirl-Schliff Sky blue Topas mit Klappbrisur
@@ -203,7 +203,7 @@ portfolio:
       content: 925/- Silber
       link: ""
     - name: "Rhodolith Ohrstecker "
-      image: "/images/28082f84-80ed-4421-9f17-aa9c35041f63.jpeg"
+      image: "/images/28082f84-80ed-4421-9f17-aa9c35041f63.jpeg.webp"
       categories:
         - Ohrschmuck
       content: Granatvarietät in elegantem Design
@@ -227,13 +227,13 @@ portfolio:
       content: Ohrstecker in satter Goldfarbe
       link: "/blog/ohrstecker-goldplattiert"
     - name: Perlmuttrose mit rosa Turmalin
-      image: "/images/4b7c9ba3-1fc0-4205-bfe2-1271ee23dc8a.jpeg"
+      image: "/images/4b7c9ba3-1fc0-4205-bfe2-1271ee23dc8a.jpeg.webp"
       categories:
         - Halsschmuck
       content: 925/- Silber
       link: ""
     - name: Labradorit Cabochon an diamantierter Zopfkette
-      image: "/images/c562f003-b224-4ab1-aec5-2c4cbdea957c.jpeg"
+      image: "/images/c562f003-b224-4ab1-aec5-2c4cbdea957c.jpeg.webp"
       categories:
         - Halsschmuck
       content: 925/- Silber

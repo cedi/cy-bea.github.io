@@ -4,27 +4,27 @@ service:
   title: Leistungen
   service_item:
     - name: Schmuck Anfertigungen
-      icon: icons/diamondring.png
+      icon: icons/diamondring.png.webp
       content:
         "Ob es schon eine Grundidee für ein Projekt gibt oder ein Schmuckstück
         gänzlich neu erarbeitet werden soll: personalisierte Einzelanfertigungen machen
         mir besonders Spaß"
     - name: Umarbeitungen
-      icon: icons/stars.png
+      icon: icons/stars.png.webp
       content:
         Ringgrößenänderungen, Ketten Verlängerungen, Steine hinzufügen, Gravuren,  Metallschmelze
         aus Altgold, etc
     - name: Trauringberatung
-      icon: icons/rings2.png
+      icon: icons/rings2.png.webp
       content: Trauringe individuell gestalten sowie persönliche Beratung
     - name: Reparaturen
-      icon: icons/repair.png
+      icon: icons/repair.png.webp
       content:
         "Kette gerissen, Ring gebrochen, Stein rausgefallen, … stellen Sie mich
         vor neue Herausforderungen "
     - name: Große Edelsteinauswahl
-      icon: icons/diamond.png
+      icon: icons/diamond.png.webp
       content: Von Amethyst bis Zirkon habe ich eine große Sammlung an Glitzersteinchen.
     - name: Schmuck Versand
-      icon: icons/mail.png
+      icon: icons/mail.png.webp
       content: DHL versichert mit Trackingnummer

@@ -1,9 +1,9 @@
 ---
 banner:
   enable: false
-  bg_image: images/backgrounds/header.jpg
+  bg_image: images/backgrounds/header.jpg.webp
   hero_images:
-    - image: images/backgrounds/header.jpg
+    - image: images/backgrounds/header.jpg.webp
   icon: ""
   title: Goldschmiede Goldspecht
   content: Handgefertigte Unikate in hochwertiger Qualität, direkt aus Hamburg
