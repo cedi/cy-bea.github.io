@@ -27,8 +27,8 @@ link = "plugins/themify-icons/themify-icons.css"
 link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
+# [[params.plugins.css]]
+# link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 
 # js plugins
 [[params.plugins.js]]
@@ -43,35 +43,40 @@ link = "plugins/shuffle/shuffle.min.js"
 link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/lazy-load/lozad.min.js"
-[[params.plugins.js]]
-link = "plugins/google-map/map.js"
+# [[params.plugins.js]]
+# link = "plugins/google-map/map.js"
 
 ################### German Navigation ########################
 
 [[Languages.de.menu.main]]
+name = "Leistungen"
+url = "#services"
+weight = 1
+
+[[Languages.de.menu.main]]
 name = "Shop"
-url = "https://shop.metallglanz.com"
-weight = 10
-
-[[Languages.de.menu.main]]
-name = "Galerie"
-url = "#portfolio"
-weight = 20
-
-[[Languages.de.menu.main]]
-name = "Neues"
-url = "#blog"
-weight = 40
-
-[[Languages.de.menu.main]]
-name = "Trauringkonfigurator"
-url = "#cta"
-weight = 50
+url = "#shop"
+weight = 2
 
 [[Languages.de.menu.main]]
 name = "Kontakt"
 url = "#contact"
-weight = 60
+weight = 3
+
+[[Languages.de.menu.main]]
+name = "Trauringkonfigurator"
+url = "#cta"
+weight = 4
+
+[[Languages.de.menu.main]]
+name = "Galerie"
+url = "#portfolio"
+weight = 5
+
+# [[Languages.de.menu.main]]
+# name = "Neues"
+# url = "#blog"
+# weight = 40
 
 [[Languages.de.menu.policy]]
 name = "Datenschutzerklärung"
@@ -143,10 +148,10 @@ expire_days = 2
 
 ############################# social icons ##########################
 [[params.social]]
-icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-instagram"                           # themify icon pack : https://themify.me/themify-icons
 link = "https://www.instagram.com/gold_specht/"
 [[params.social]]
-icon = "ti-email" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-email"                      # themify icon pack : https://themify.me/themify-icons
 link = "mailto:kontakt@gold-specht.de"
 
 
