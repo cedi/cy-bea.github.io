@@ -10,7 +10,8 @@
 				{{"<!-- section title -->" | safeHTML}}
 				<div class="title text-center">
 					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
-						{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+							{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span>
+					</h2>
 					<div class="border-meghna"></div>
 				</div>
 				{{"<!-- /section title -->" | safeHTML}}
@@ -27,12 +28,12 @@
 					{{ $categories := slice }}
 					{{ $category := string "" }}
 					{{ range .portfolio_item }}
-						{{ range .categories }}
-							{{ $category = trim . " " }}
-							{{ if ne $category "" }}
-								{{ $categories = $categories | append $category }}
-							{{ end }}
-						{{ end }}
+					{{ range .categories }}
+					{{ $category = trim . " " }}
+					{{ if ne $category "" }}
+					{{ $categories = $categories | append $category }}
+					{{ end }}
+					{{ end }}
 					{{ end }}
 					{{ range ( $categories | uniq ) }}
 					<label class="btn">
@@ -54,7 +55,7 @@
 					<img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
 					<div class="caption">
 						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | relURL }}"
-							data-lightbox="image-1">
+							data-lightbox="image-1" aria-label="{{ .name }} zoom icon">
 							<i class="ti-zoom-in"></i>
 						</a>
 						<h4 class="mt-3">

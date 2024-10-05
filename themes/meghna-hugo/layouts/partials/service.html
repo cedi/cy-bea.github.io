@@ -10,7 +10,8 @@
 				{{"<!-- section title -->" | safeHTML }}
 				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
 					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
-						{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+							{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span>
+					</h2>
 					<div class="border-meghna"></div>
 				</div>
 			</div>
@@ -21,7 +22,8 @@
 			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
-						<img class="img-fluid lozad" width="50px" height="50px" src="{{ .icon | absURL }}" />
+						<img class="img-fluid lozad" width="50px" height="50px" src="{{ .icon | absURL }}"
+							alt="{{ .name | markdownify }} icon" />
 					</div>
 					<h3>{{ .name | markdownify }}</h3>
 					<p>{{ .content | markdownify }}</p>
