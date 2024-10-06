@@ -66,6 +66,7 @@ portfolio:
       link: ""
     - name: Jugendstil Haarkamm mit Saphir und Swiss blue Topas
       image: "/images/40acaf6b-d907-4f88-81e4-f6a4a7ff2322.jpeg.webp"
+      rotate: 90
       categories:
         - Haarschmuck
       content: 925/- Silber
