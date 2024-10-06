@@ -46,7 +46,14 @@ link = "plugins/lazy-load/lozad.min.js"
 # [[params.plugins.js]]
 # link = "plugins/google-map/map.js"
 
-################### German Navigation ########################
+[Languages.de]
+[Languages.de.params]
+languageName = "De"
+languageCode = "de-de"
+contentDir = "content/de"
+weight = 1
+home = "Home"
+copyright = "Copyright &copy; 2024 Goldschmiede Goldspecht"
 
 [[Languages.de.menu.main]]
 name = "Leistungen"
@@ -88,43 +95,6 @@ name = "Impressum"
 url = "/impressum"
 weight = 20
 
-################### English Navigation ########################
-
-# [[Languages.en.menu.main]]
-# name = "About me"
-# url = "#feature"
-# weight = 1
-# 
-# [[Languages.en.menu.main]]
-# name = "News"
-# url = "#blog"
-# weight = 3
-# 
-# [[Languages.en.menu.main]]
-# name = "Gallery"
-# url = "#portfolio"
-# weight = 2
-# 
-# [[Languages.en.menu.main]]
-# name = "Wedding ring configurator"
-# url = "#cta"
-# weight = 4
-# 
-# [[Languages.en.menu.main]]
-# name = "Contact"
-# url = "#contact"
-# weight = 5
-
-# [[Languages.en.menu.policy]]
-# name = "Privacy Policy"
-# url = "/datenschutz"
-# weight = 60
-# 
-# [[Languages.en.menu.policy]]
-# name = "Impressum"
-# url = "/impressum"
-# weight = 70
-
 ############################# Default Parameters ##########################
 [params]
 logo = "images/thumbnail_metallglanz.png.webp"
@@ -150,25 +120,7 @@ expire_days = 2
 [[params.social]]
 icon = "ti-instagram"                           # themify icon pack : https://themify.me/themify-icons
 link = "https://www.instagram.com/gold_specht/"
+
 [[params.social]]
 icon = "ti-email"                      # themify icon pack : https://themify.me/themify-icons
 link = "mailto:kontakt@gold-specht.de"
-
-
-################################ German Language ########################
-[Languages.de]
-languageName = "De"
-languageCode = "de-de"
-contentDir = "content/de"
-weight = 1
-home = "Home"
-copyright = "Copyright &copy; 2024 Goldschmiede Goldspecht"
-
-################################ English Language ########################
-# [Languages.en]
-# languageName = "En"
-# languageCode = "en-us"
-# contentDir = "content/en"
-# weight = 1
-# home = "Home"
-# copyright = "Copyright &copy; 2024 Goldschmiede Metallglanz"
