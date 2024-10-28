@@ -4,8 +4,12 @@ contact:
   title: Kontakt
   subtitle: ''
   content: Kontaktieren Sie mich für individuelle Beratung und Angebote
-  contact_form:
+  button:
     enable: true
+    label: Buchen Sie ganz unverbildlich einen Beratungstermin
+    link: https://outlook.office365.com/book/beratung@gold-specht.de/
+  contact_form:
+    enable: false
     form_action: https://formspree.io/f/xkneqdbk
     name: Ihr Name
     email: Ihre E-Mail Adresse
